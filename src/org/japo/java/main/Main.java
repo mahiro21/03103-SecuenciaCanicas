@@ -1,5 +1,5 @@
 /* 
- * Copyright 2019 Mario Merlos Abella <mario.merlos.alum@iescamp.es>.
+ * Copyright 2019 Mario Merlos Abella - mario.merlos.alum@iescamp.es
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ package org.japo.java.main;
 
 /**
  *
- * @author Mario Merlos Abella <mario.merlos.alum@iescamp.es>
+ * @author Mario Merlos Abella - mario.merlos.alum@iescamp.es
  */
 public final class Main {
 
@@ -28,12 +28,12 @@ public final class Main {
         int canicasLeft;
 
         //Constantes
-        final String Namecanica = "Ruperta";
+        final String NameCanica = "Ruperta";
         final int CanicasIni = 5;
         final int CanicasFin = 1;
 
         System.out.printf("Secuencia de Canicas%n====================%n");
-        System.out.printf("Nombre de la canica ........: %s%n", Namecanica);
+        System.out.printf("Nombre de la canica ........: %s%n", NameCanica);
           System.out.printf("---%n");
         System.out.printf("Número de canicas inicial ..: %d%n", CanicasIni);
         System.out.printf("Número de canicas final ....: %d%n", CanicasFin);
