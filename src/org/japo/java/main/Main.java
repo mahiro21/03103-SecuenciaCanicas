@@ -28,18 +28,18 @@ public final class Main {
         int canicasLeft;
 
         //Constantes
-        final String NameCanica = "Ruperta";
-        final int CanicasIni = 5;
-        final int CanicasFin = 1;
+        final String NAME_CANICA = "Ruperta";
+        final int CANICAS_INI = 5;
+        final int CANICAS_FIN = 1;
 
         System.out.printf("Secuencia de Canicas%n====================%n");
-        System.out.printf("Nombre de la canica ........: %s%n", NameCanica);
+        System.out.printf("Nombre de la canica ........: %s%n", NAME_CANICA);
           System.out.printf("---%n");
-        System.out.printf("Número de canicas inicial ..: %d%n", CanicasIni);
-        System.out.printf("Número de canicas final ....: %d%n", CanicasFin);
-        canicasLeft = CanicasIni - CanicasFin;
+        System.out.printf("Número de canicas inicial ..: %d%n", CANICAS_INI);
+        System.out.printf("Número de canicas final ....: %d%n", CANICAS_FIN);
+        canicasLeft = CANICAS_INI - CANICAS_FIN;
         System.out.printf("---%n");
-        System.out.printf(Locale.ENGLISH, "Número de canicas perdidas .: %d%n", canicasLeft);
+        System.out.printf("Número de canicas perdidas .: %d%n", canicasLeft);
 
     }
 }
